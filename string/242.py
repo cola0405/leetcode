@@ -1,15 +1,15 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        count1 = {chr(i): 0 for i in range(97,123)}
-        count2 = {chr(i): 0 for i in range(97, 123)}
-        for ch in s:
-            count1[ch] += 1
-        for ch in t:
-            count2[ch] += 1
+        if len(s) != len(t):
+            return False
+        s_count = {}
+        t_count = {}
+        for i in range(len(s)):
+            s_count[s[i]] = s_count.get(s[i], 0) + 1
+            t_count[t[i]] = t_count.get(t[i], 0) + 1
 
-        for ch in count1:
-            if count1[ch] != count2[ch]:
-                return False
-        return True
+        if s_count == t_count:
+            return True
+        return False
 
 
