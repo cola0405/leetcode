@@ -1,15 +1,14 @@
-# 排序 其实并不见得更快
-
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        from collections import defaultdict
         if len(s) != len(t):
             return False
-        s = sorted(s)
-        t = sorted(t)
-
+        s_count = defaultdict(int)
+        t_count = defaultdict(int)
         for i in range(len(s)):
-            if s[i] != t[i]:
-                return False
-        return True
+            s_count[s[i]] += 1
+            t_count[t[i]] += 1
 
-
+        if s_count == t_count:
+            return True
+        return False
