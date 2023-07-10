@@ -6,13 +6,13 @@ class Solution:
         nums.sort()
         ans = []
         for i in range(len(nums)):
-            if i>=1 and nums[i] == nums[i-1]:
+            if i>0 and nums[i] == nums[i-1]:
                 continue
             for j in range(i+1, len(nums)):
                 # 剪枝很细节
                 # 第一次要放j进来，然后再jump over repeat
                 # 具体结合例子理解：[1,0,-1,0,-2,2] 0
-                if j>=i+2 and nums[j] == nums[j-1]:
+                if j>i+1 and nums[j] == nums[j-1]:
                     continue
                 l = j+1
                 r = len(nums)-1
