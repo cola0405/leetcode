@@ -1,12 +1,14 @@
 from typing import List
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        intervals.sort(key=lambda item: item[0])
+        intervals.sort()
         ans = [intervals[0]]
+
         for i in range(1, len(intervals)):
-            # 合并（重叠）的情况：①前包后②后包前③叠
-            if ans[-1][1] >= intervals[i][1] or intervals[i][0] <= ans[-1][1]:
-                ans[-1][1] = max(ans[-1][1], intervals[i][1])
+            start, end = intervals[i]
+            endpoint = ans[-1][1]
+            if start<=endpoint:  # 判断有无重叠
+                ans[-1][1] = max(end, endpoint)  # 更新endpoint
             else:
                 ans.append(intervals[i])
         return ans
