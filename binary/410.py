@@ -1,26 +1,29 @@
 # 二分+贪心
 from typing import List
 class Solution:
-    def splitArray(self, nums: List[int], m: int) -> int:
-        def check(available):
-            if available < max(nums):
+    def splitArray(self, nums: List[int], k: int) -> int:
+        def limit_available(limit):
+            if limit < max(nums):
                 return False
-            the_available = available
-            group = 1
-            for num in nums:
-                if the_available >= num:
-                    the_available -= num
+            interval_sum = 0
+            count = 0
+            for i in range(len(nums)):
+                if interval_sum+nums[i]<=limit:
+                    interval_sum += nums[i]
                 else:
-                    group += 1
-                    the_available = available-num
-            return group<=m
+                    interval_sum = nums[i]
+                    count += 1
 
-        # 二分找合适的标准，因为标准之左不够，标准之右都可以
+            if interval_sum > 0:  # deal with the end
+                count += 1
+
+            return count <= k
+
         low = 0
         high = sum(nums)
         while low<high:
-            mid = (low+high)//2
-            if check(mid):
+            mid = (low+high)//2  # lower bound 取low
+            if limit_available(mid):
                 high = mid
             else:
                 low = mid+1
