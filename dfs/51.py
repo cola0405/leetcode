@@ -11,25 +11,18 @@ class Solution:
                         return False  # 上下移动即可
             return True
 
-
-        def dfs(count):
-            if count == n:
-                ans.append([''.join(board[i]) for i in range(n)])
+        def dfs(row):
+            if row == n:
+                ans.append([''.join(line) for line in board])
                 return
 
-            for j in range(n):  # 这个for循环即可做到当前row选其他column -- 精妙的"不选"
-                if valid(count, j):
-                    board[count][j] = 'Q'
-                    dfs(count+1)  # 不用担心漏的问题，前面肯定dfs搜过
-                    board[count][j] = '.'
+            for column in range(n):
+                if valid(row, column):
+                    board[row][column] = 'Q'
+                    dfs(row+1)
+                    board[row][column] = '.'
 
         ans = []
         board = [['.']*n for _ in range(n)]
         dfs(0)
         return ans
-
-res = Solution().solveNQueens(9)
-for matrix in res:
-    for row in matrix:
-        print(row)
-    print()

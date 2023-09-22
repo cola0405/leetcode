@@ -13,18 +13,16 @@ def valid(row, column):  # 检查当前点(row, column)是否有效
 
 def dfs(row):  # dfs搜索行，for循环搜索列
     if row == 8:
-        global ans
-        ans += 1
-        return
+        return 1
 
+    res = 0
     for column in range(8):
         if valid(row, column):
             board[row] = column
-            dfs(row+1)
+            res += dfs(row+1)
+    return res
 
-ans = 0
-# 将皇后棋子的放置方案压缩到一个一维数组中
-board = [0]*8
-dfs(0)
+board = [0]*8  # 压缩棋盘
+print(dfs(0))
 
-print(ans)
+
