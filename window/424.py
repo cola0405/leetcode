@@ -25,4 +25,3 @@ class Solution:
         return ans
 
 print(Solution().characterReplacement("ABAA", 0))
-
