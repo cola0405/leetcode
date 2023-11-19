@@ -1,31 +1,22 @@
 # 暴力双指针超时
 # 利用map优化匹配时的指针右移
 
+# map 的结构如下：
+# s = 'abcabc'
+# {a:[0,3], b:[1,4], c[2,5]}
+# 然后用二分找下一个的下标
 
+from collections import defaultdict
 from typing import List
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
         def sub(word):
-            j = 0
-            for i in range(len(word)):
-                if j == len(s):
-                    return False
-
-                if word[i] != s[j]:
-                    if word[i] not in nxt[i]:
-                        return False
-                    j = nxt[i][word[i]]
-                j += 1
-            return True
+            pass
 
         # build map
-        nxt = []
+        nxt = defaultdict(list)
         for i in range(len(s)):
-            d = dict()
-            for j in range(i+1, len(s)):
-                if s[j] not in d:
-                    d[s[j]] = j
-            nxt.append(d)
+            nxt[s[i]].append(i)
 
         ans = 0
         for w in words:
@@ -33,4 +24,4 @@ class Solution:
                 ans += 1
         return ans
 
-print(Solution().numMatchingSubseq("rwpddkvbnnuglnagtvamxkqtwhqgwbqgfbvgkwyuqkdwhzudsxvjubjgloeofnpjqlkdsqvruvabjrikfwronbrdyyjnakstqjac", ["wpddkvbnn","lnagtva","kvbnnuglnagtvamxkqtwhqgwbqgfbvgkwyuqkdwhzudsxvju","rwpddkvbnnugln","gloeofnpjqlkdsqvruvabjrikfwronbrdyyj","vbgeinupkvgmgxeaaiuiyojmoqkahwvbpwugdainxciedbdkos","mspuhbykmmumtveoighlcgpcapzczomshiblnvhjzqjlfkpina","rgmliajkiknongrofpugfgajedxicdhxinzjakwnifvxwlokip","fhepktaipapyrbylskxddypwmuuxyoivcewzrdwwlrlhqwzikq","qatithxifaaiwyszlkgoljzkkweqkjjzvymedvclfxwcezqebx"]))
+print(Solution().numMatchingSubseq(s = "abcde", words = ["b"]))
