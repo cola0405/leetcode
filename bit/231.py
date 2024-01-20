@@ -1,16 +1,8 @@
-# 只关心最后一位，其他位不管不顾，则使用&1
+# 1000 & 0111 = 0
+# 只有2的幂才会使得 n&(n-1) = 0
+
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
-        if n<=0:
-            return False
-
-        one_count = 0
-        while n>0:
-            if n&1:
-                one_count += 1
-                if one_count > 1:
-                    return False
-            n>>=1
-        return True
+        return n > 0 and n&(n-1) == 0
 
 print(Solution().isPowerOfTwo(1))

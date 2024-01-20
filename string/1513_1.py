@@ -1,4 +1,9 @@
-# 可行的递归模拟拿不拿，但是因为10^5 会超时
+# 在递归的过程中其实不难发现，次数统计是有规律的
+# 11   --- 3  = 2+1
+# 111  --- 6  = 3+2+1
+# 1111 --- 10 = 4+3+2+1
+
+
 class Solution:
     def numSub(self, s: str) -> int:
         ans = 0
@@ -10,4 +15,6 @@ class Solution:
             n = j-i
             ans += (1+n)*n // 2
             i = j+1
-        return int(ans % (1e9+7))
+        return int(ans % (1e9+7))  # 题目要求取模
+
+print(Solution().numSub("111"))
