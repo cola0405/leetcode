@@ -1,4 +1,4 @@
-# prefix sum + congruence + modulo-hash(count the result of mod)
+# prefix sum + congruence + modulo-hash count(count the result of mod)
 
 # the cnt is actually the interesting number in the interval
 # we can use prefix sum to get the cnt by pre[j] - pre[i-1]
