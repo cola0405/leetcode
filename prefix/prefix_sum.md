@@ -23,6 +23,7 @@ https://leetcode.cn/problems/count-vowel-strings-in-ranges/
 
 prefix + suffix: https://leetcode.cn/problems/count-increasing-quadruplets/description/
 
+multiplicative inverse(逆元): https://leetcode.cn/problems/range-product-queries-of-powers/description/
 
 
 
