@@ -1,6 +1,4 @@
 from typing import List
-
-
 class Solution:
     def answerQueries(self, nums: List[int], queries: List[int]) -> List[int]:
         nums.sort()  # 没要求递增，就无所谓

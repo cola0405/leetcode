@@ -1,7 +1,7 @@
 # Prefix
 
 ## note
-dealing with the interval, subarray, contiguous (the interval hash count is classic -- 2588.py)
+dealing with the interval(2D-array), subarray, contiguous (the interval hash count is classic -- 2588.py)
 
 optimize the calculation of a large amount of data 
 
@@ -18,17 +18,10 @@ prefix + hash -- 525.py
 
 ### easy
 https://leetcode.cn/problems/count-vowel-strings-in-ranges/
+https://leetcode.cn/problems/number-of-ways-to-split-array/description/
 
 ### medium
 
 prefix + suffix: https://leetcode.cn/problems/count-increasing-quadruplets/description/
 
 multiplicative inverse(逆元): https://leetcode.cn/problems/range-product-queries-of-powers/description/
-
-
-
-# Difference
-
-O(1) to do the interval update
-
-2d difference: https://leetcode.cn/problems/increment-submatrices-by-one/description/
