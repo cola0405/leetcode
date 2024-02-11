@@ -1,0 +1,1 @@
+easy but good: https://leetcode.cn/problems/PTXy4P/description/
