@@ -7,3 +7,5 @@ neighbor bound: https://leetcode.cn/problems/smallest-difference-lcci/descriptio
 special binary search: https://leetcode.cn/problems/skFtm2/description/
 
 different implement of binary search for lower bound: https://leetcode.cn/problems/N6YdxV/description/
+
+upper-bound for longest subarray: https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/description/
