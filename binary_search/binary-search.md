@@ -20,3 +20,5 @@ https://leetcode.cn/problems/prime-subtraction-operation/description/
 
 binary search can not only search the answer, but also the target item:
 https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/
+https://leetcode.cn/problems/maximize-win-from-two-segments/description/
+
