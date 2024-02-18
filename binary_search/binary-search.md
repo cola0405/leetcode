@@ -1,3 +1,11 @@
+binary search basic:
+https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/
+
+
+binary search bisect:
+https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+
+
 binary search is used for search element: https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-i/description/
 
 binary search + greedy:
