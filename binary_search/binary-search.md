@@ -6,10 +6,14 @@ https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/description
 binary search bisect:
 https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/
 https://leetcode.cn/problems/find-right-interval/description/
-
+https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/ -- decreasing order
 
 binary search + sliding window:
 https://leetcode.cn/problems/max-consecutive-ones-iii/description/
+
+
+!!binary search + prefix sovle the interval problem:
+https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/
 
 binary search is used for search element: https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-i/description/
 

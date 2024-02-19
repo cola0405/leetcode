@@ -25,3 +25,8 @@ https://leetcode.cn/problems/number-of-ways-to-split-array/description/
 prefix + suffix: https://leetcode.cn/problems/count-increasing-quadruplets/description/
 
 multiplicative inverse(逆元): https://leetcode.cn/problems/range-product-queries-of-powers/description/
+
+
+### hard
+!!binary search + prefix sovle the interval problem:
+https://leetcode.cn/problems/frequency-of-the-most-frequent-element/description/
