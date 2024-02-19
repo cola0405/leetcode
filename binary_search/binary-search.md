@@ -1,10 +1,15 @@
 binary search basic:
 https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/
+https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/description/
 
 
 binary search bisect:
 https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+https://leetcode.cn/problems/find-right-interval/description/
 
+
+binary search + sliding window:
+https://leetcode.cn/problems/max-consecutive-ones-iii/description/
 
 binary search is used for search element: https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-i/description/
 
@@ -30,3 +35,12 @@ binary search can not only search the answer, but also the target item:
 https://leetcode.cn/problems/count-the-number-of-fair-pairs/description/
 https://leetcode.cn/problems/maximize-win-from-two-segments/description/
 
+
+sorted segments + binary search:
+https://leetcode.cn/problems/search-in-rotated-sorted-array/description/
+
+special binary search:
+https://leetcode.cn/problems/single-element-in-a-sorted-array/description/
+
+binary search the bound + maximum maintain:
+https://leetcode.cn/problems/most-profit-assigning-work/description/
