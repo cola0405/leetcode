@@ -48,3 +48,7 @@ https://leetcode.cn/problems/single-element-in-a-sorted-array/description/
 
 binary search the bound + maximum maintain:
 https://leetcode.cn/problems/most-profit-assigning-work/description/
+
+
+crazy binary search:
+https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/description/
