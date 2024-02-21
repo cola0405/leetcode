@@ -7,3 +7,6 @@ robber:https://leetcode.cn/problems/house-robber-iv/
 
 transform:
 https://leetcode.cn/problems/maximum-difference-by-remapping-a-digit/description/
+
+minimum operation:
+https://leetcode.cn/problems/valid-palindrome-ii/description/
