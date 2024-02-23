@@ -19,6 +19,10 @@ https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/description/
 extreme inplace space:
 https://leetcode.cn/problems/merge-sorted-array/description/
 
+two pointers of interval to make array sorted :
+https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/
+
+
 
 basic inplace:
 https://leetcode.cn/problems/separate-black-and-white-balls/description/
