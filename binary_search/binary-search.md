@@ -1,6 +1,7 @@
 binary search basic:
 https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/
 https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days/description/
+https://leetcode.cn/problems/successful-pairs-of-spells-and-potions/description/
 
 
 binary search bisect:
