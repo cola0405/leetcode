@@ -10,8 +10,9 @@ then, we can't use hash-count, but two pointers
 skip the part:
 https://leetcode.cn/problems/move-pieces-to-obtain-a-string/description/
 
-
-
+available interval:
+https://leetcode.cn/problems/4xy4Wx/description/
+https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii/description/  -- (hard)
 
 ready to be filled:
 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/description/
