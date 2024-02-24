@@ -18,3 +18,4 @@ class Solution:
         return ans
 
 print(Solution().incremovableSubarrayCount( [1,2,3,4]))
+
