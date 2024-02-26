@@ -23,6 +23,8 @@ https://leetcode.cn/problems/merge-sorted-array/description/
 two pointers of interval to make array sorted :
 https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/
 
+merge interval:
+https://leetcode.cn/problems/interval-list-intersections/description/
 
 
 basic inplace:

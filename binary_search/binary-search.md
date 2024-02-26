@@ -9,6 +9,9 @@ https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-a
 https://leetcode.cn/problems/find-right-interval/description/
 https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/ -- decreasing order
 
+binary search 2d-array:
+https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/
+
 binary search + sliding window:
 https://leetcode.cn/problems/max-consecutive-ones-iii/description/
 

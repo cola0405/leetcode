@@ -18,6 +18,8 @@ https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i/desc
 ### 2D-array
 https://leetcode.cn/problems/find-missing-and-repeated-values/
 https://leetcode.cn/problems/matrix-similarity-after-cyclic-shifts/description/
+https://leetcode.cn/problems/modify-the-matrix/description/
+
 
 count: https://leetcode.cn/problems/find-common-elements-between-two-arrays/description/
 
