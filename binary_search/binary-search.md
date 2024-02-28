@@ -11,9 +11,16 @@ https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/ -- decre
 
 binary search 2d-array:
 https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/
+https://leetcode.cn/problems/kth-smallest-number-in-multiplication-table/description/
+https://leetcode.cn/problems/find-k-th-smallest-pair-distance/description/
+
+
 
 binary search + sliding window:
 https://leetcode.cn/problems/max-consecutive-ones-iii/description/
+
+(classic) solve 1 by 1 problem with binary search:
+https://leetcode.cn/problems/maximum-running-time-of-n-computers/description/
 
 
 !!binary search + prefix sovle the interval problem:
