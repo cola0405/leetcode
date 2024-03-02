@@ -13,5 +13,9 @@ max_cnt: https://leetcode.cn/problems/minimum-array-length-after-pair-removals/d
 the sieve of Eratosthenes algorithm:
 https://leetcode.cn/problems/prime-subtraction-operation/description/
 
+
 lcm + binary search:
 https://leetcode.cn/problems/nth-magical-number/description/
+
+1 by 1 problem:
+https://leetcode.cn/problems/maximum-running-time-of-n-computers/description/

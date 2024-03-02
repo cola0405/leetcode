@@ -7,6 +7,10 @@ https://leetcode.cn/problems/watering-plants-ii/description/
 compare to the hash-count, if the problem care about the order
 then, we can't use hash-count, but two pointers
 
+three numbers:
+https://leetcode.cn/problems/3sum-closest/description/
+
+
 skip the part:
 https://leetcode.cn/problems/move-pieces-to-obtain-a-string/description/
 

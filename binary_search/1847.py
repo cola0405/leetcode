@@ -18,6 +18,7 @@ class Solution:
             while low < high:
                 mid = (low+high)//2
                 if rooms[mid][1] >= pre:
+                    pass
                     
 
 print(Solution().closestRoom(rooms = [[2,2],[1,2],[3,2]], queries = [[3,1],[3,3],[5,2]]))
