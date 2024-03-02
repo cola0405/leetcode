@@ -1,5 +1,6 @@
 
-
+bits:
+https://leetcode.cn/submissions/detail/505848669/
 
 digits: https://leetcode.cn/problems/nth-digit/description/
 
@@ -11,3 +12,6 @@ max_cnt: https://leetcode.cn/problems/minimum-array-length-after-pair-removals/d
 
 the sieve of Eratosthenes algorithm:
 https://leetcode.cn/problems/prime-subtraction-operation/description/
+
+lcm + binary search:
+https://leetcode.cn/problems/nth-magical-number/description/

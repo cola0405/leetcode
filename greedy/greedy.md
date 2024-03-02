@@ -3,6 +3,10 @@ right-most greedy: https://leetcode.cn/problems/maximize-the-minimum-powered-cit
 
 the first k elements: https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/description/
 
+median greedy:
+https://leetcode.cn/problems/minimum-cost-to-make-array-equal/description/
+https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/description/
+
 robber:https://leetcode.cn/problems/house-robber-iv/
 
 transform:

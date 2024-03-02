@@ -9,7 +9,7 @@ https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-a
 https://leetcode.cn/problems/find-right-interval/description/
 https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/ -- decreasing order
 
-binary search 2d-array:
+2d-binary search:
 https://leetcode.cn/problems/kth-smallest-element-in-a-sorted-matrix/description/
 
 binary search + sliding window:
@@ -27,14 +27,21 @@ https://leetcode.cn/problems/maximum-number-of-alloys/description/
 https://leetcode.cn/problems/minimum-time-to-repair-cars/description/
 https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices/description/
 
-neighbor bound: https://leetcode.cn/problems/smallest-difference-lcci/description/
+neighbor bound: 
+https://leetcode.cn/problems/smallest-difference-lcci/description/
 
-special binary search: https://leetcode.cn/problems/skFtm2/description/
+lcm + binary search:
+https://leetcode.cn/problems/nth-magical-number/description/
 
-different implement of binary search for lower bound: https://leetcode.cn/problems/N6YdxV/description/
+different implement of binary search for lower bound: 
+https://leetcode.cn/problems/N6YdxV/description/
 
-upper-bound for longest subarray: https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/description/
+upper-bound for longest subarray: 
+https://leetcode.cn/problems/find-longest-special-substring-that-occurs-thrice-ii/description/
 
+
+bits binary search:
+https://leetcode.cn/problems/smallest-good-base/description/
 
 the sieve of Eratosthenes algorithm + greedy + binary search:
 https://leetcode.cn/problems/prime-subtraction-operation/description/
@@ -47,12 +54,12 @@ https://leetcode.cn/problems/maximize-win-from-two-segments/description/
 sorted segments + binary search:
 https://leetcode.cn/problems/search-in-rotated-sorted-array/description/
 
-special binary search:
-https://leetcode.cn/problems/single-element-in-a-sorted-array/description/
 
 binary search the bound + maximum maintain:
 https://leetcode.cn/problems/most-profit-assigning-work/description/
+https://leetcode.cn/problems/single-element-in-a-sorted-array/description/
 
 
 crazy binary search:
 https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/description/
+https://leetcode.cn/problems/skFtm2/description/
