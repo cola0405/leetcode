@@ -30,6 +30,8 @@ https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorte
 merge interval:
 https://leetcode.cn/problems/interval-list-intersections/description/
 
+adaptive interval:
+https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/description/
 
 basic inplace:
 https://leetcode.cn/problems/separate-black-and-white-balls/description/

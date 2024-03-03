@@ -21,6 +21,10 @@ https://leetcode.cn/problems/matrix-similarity-after-cyclic-shifts/description/
 https://leetcode.cn/problems/modify-the-matrix/description/
 
 
+cycle:
+https://leetcode.cn/problems/rotate-array/description/
+
+
 count: https://leetcode.cn/problems/find-common-elements-between-two-arrays/description/
 
 peek: https://leetcode.cn/problems/find-the-peaks/description/
