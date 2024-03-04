@@ -10,13 +10,17 @@ then, we can't use hash-count, but two pointers
 three numbers:
 https://leetcode.cn/problems/3sum-closest/description/
 
+medium two pointers:
+https://leetcode.cn/problems/expressive-words/description/
 
 skip the part:
 https://leetcode.cn/problems/move-pieces-to-obtain-a-string/description/
 
-available interval:
+valid interval:
 https://leetcode.cn/problems/4xy4Wx/description/
 https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-ii/description/  -- (hard)
+https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/
+
 
 ready to be filled:
 https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/description/
