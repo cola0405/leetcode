@@ -7,3 +7,6 @@ https://leetcode.cn/problems/search-suggestions-system/description/
 
 reverse pair:
 https://leetcode.cn/problems/next-permutation/
+
+sort to convert the problem:
+https://leetcode.cn/problems/maximum-width-ramp/description/

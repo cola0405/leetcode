@@ -5,9 +5,11 @@ class Solution:
         ans = [-1]*n
         s = []
         nums += nums
-        for i in range(n):
+        for i in range(2*n):
             while s and nums[i] > nums[s[-1]]:
-                ans[s.pop()] = nums[i]
+                inx = s.pop()
+                if inx < n:
+                    ans[inx] = nums[i]
             s.append(i)
         return ans
 

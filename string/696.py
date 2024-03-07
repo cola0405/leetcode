@@ -1,3 +1,4 @@
+# seg
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
         n = len(s)
