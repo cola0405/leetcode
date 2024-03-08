@@ -1,3 +1,5 @@
+greedy:
+https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description/
 
 pre-sort make sure the order:
 https://leetcode.cn/problems/search-suggestions-system/description/
@@ -10,3 +12,6 @@ https://leetcode.cn/problems/next-permutation/
 
 sort to convert the problem:
 https://leetcode.cn/problems/maximum-width-ramp/description/
+
+three numbers:
+https://leetcode.cn/problems/1fGaJU/description/

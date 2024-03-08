@@ -13,6 +13,8 @@ then, we can't use hash-count, but two pointers
 
 three numbers:
 https://leetcode.cn/problems/3sum-closest/description/
+https://leetcode.cn/problems/1fGaJU/description/
+
 
 medium two pointers:
 https://leetcode.cn/problems/expressive-words/description/

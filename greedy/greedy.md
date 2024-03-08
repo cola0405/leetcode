@@ -14,6 +14,8 @@ https://leetcode.cn/problems/maximum-difference-by-remapping-a-digit/description
 
 minimum operation:
 https://leetcode.cn/problems/valid-palindrome-ii/description/
+https://leetcode.cn/problems/boats-to-save-people/description/
+
 
 maximum gap:
 https://leetcode.cn/problems/maximum-width-ramp/description/
