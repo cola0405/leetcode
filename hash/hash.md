@@ -10,6 +10,8 @@ O(1): https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/
 
 hash+greedy: https://leetcode.cn/problems/0jQkd0/
 
+diagonal hash:
+https://leetcode.cn/problems/diagonal-traverse-ii/description/
 
 status record: 
 https://leetcode.cn/problems/minimum-operations-to-collect-elements/

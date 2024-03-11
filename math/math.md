@@ -19,3 +19,6 @@ https://leetcode.cn/problems/nth-magical-number/description/
 
 1 by 1 problem:
 https://leetcode.cn/problems/maximum-running-time-of-n-computers/description/
+
+focus on the fixed:
+https://leetcode.cn/problems/task-scheduler/description/

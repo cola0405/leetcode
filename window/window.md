@@ -12,3 +12,9 @@ https://leetcode.cn/problems/count-subarrays-with-score-less-than-k/description/
 
 endpoint to interval problem + scattered sliding window:
 https://leetcode.cn/problems/moving-stones-until-consecutive-ii/description/
+
+sliding window + sorted list:
+https://leetcode.cn/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/
+
+variable window + sorted list:
+https://leetcode.cn/problems/furthest-building-you-can-reach/description/
