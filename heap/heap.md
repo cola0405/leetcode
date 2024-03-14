@@ -10,5 +10,7 @@ https://leetcode.cn/problems/split-array-into-consecutive-subsequences/descripti
 greedy + select maximum every time:
 https://leetcode.cn/problems/distant-barcodes/description/
 
+heap iteration:
+https://leetcode.cn/problems/maximum-average-pass-ratio/description/
 
 
