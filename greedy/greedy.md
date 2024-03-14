@@ -16,6 +16,8 @@ minimum operation:
 https://leetcode.cn/problems/valid-palindrome-ii/description/
 https://leetcode.cn/problems/boats-to-save-people/description/
 
+choose minimum or maximum:
+https://leetcode.cn/problems/maximum-product-after-k-increments/description/
 
 maximum gap:
 https://leetcode.cn/problems/maximum-width-ramp/description/
