@@ -21,7 +21,7 @@ https://leetcode.cn/problems/matrix-similarity-after-cyclic-shifts/description/
 https://leetcode.cn/problems/modify-the-matrix/description/
 https://leetcode.cn/problems/rotating-the-box/description/
 https://leetcode.cn/problems/diagonal-traverse-ii/description/
-
+https://leetcode.cn/problems/range-addition-ii/description/
 
 cycle:
 https://leetcode.cn/problems/rotate-array/description/
