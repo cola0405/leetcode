@@ -7,6 +7,7 @@ https://leetcode.cn/problems/k-th-smallest-prime-fraction/
 multi-queue problem:
 https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/description/
 
+
 hash table + multi-heap + heap iteration:
 https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/
 
@@ -22,3 +23,5 @@ https://leetcode.cn/problems/remove-stones-to-minimize-the-total/description/
 heap iteration medium:
 https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/description/
 
+auto-heap:
+https://leetcode.cn/problems/construct-string-with-repeat-limit/description/
