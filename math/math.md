@@ -1,3 +1,5 @@
+fast pow:
+https://leetcode.cn/problems/powx-n/description/
 
 bits:
 https://leetcode.cn/submissions/detail/505848669/
