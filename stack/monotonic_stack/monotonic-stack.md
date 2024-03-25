@@ -8,3 +8,8 @@ https://leetcode.cn/problems/find-building-where-alice-and-bob-can-meet/descript
 
 prefix + suffix + interval of monotonic stack:
 https://leetcode.cn/problems/beautiful-towers-ii/description/
+
+dual-monotonic stack:
+https://leetcode.cn/problems/largest-rectangle-in-histogram/description/
+https://leetcode.cn/problems/maximal-rectangle/description/
+

@@ -1,3 +1,5 @@
+适用条件：interval + 有我没他（对于情况可扭转的问题，则不能暴力pop）
+参考 3.无重复字符的最长子序列
 
 classic: 
 https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation/description/
