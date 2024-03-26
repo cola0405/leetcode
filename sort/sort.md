@@ -15,3 +15,6 @@ https://leetcode.cn/problems/maximum-width-ramp/description/
 
 three numbers:
 https://leetcode.cn/problems/1fGaJU/description/
+
+easy:
+https://leetcode.cn/problems/delete-greatest-value-in-each-row/
