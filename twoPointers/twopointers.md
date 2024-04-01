@@ -1,6 +1,23 @@
 optimize two pointers:
 https://leetcode.cn/problems/largest-merge-of-two-strings/description/
 
+```python
+    cur = start
+    i = j = 0
+    while cur <= end:
+        if j >= len(right) or (i < len(left) and left[i] < right[j]):
+            lst[cur] = left[i]
+            cur += 1
+            i += 1
+        else:
+            lst[cur] = right[j]
+            cur += 1
+            j += 1
+
+
+
+```
+
 basic:
 https://leetcode.cn/problems/maximize-greatness-of-an-array/description/
 https://leetcode.cn/problems/append-characters-to-string-to-make-subsequence/description/

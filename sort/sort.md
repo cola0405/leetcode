@@ -1,3 +1,8 @@
+
+stack + custom sort:
+https://leetcode.cn/problems/queue-reconstruction-by-height/description/
+
+
 greedy:
 https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description/
 
