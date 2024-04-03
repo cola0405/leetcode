@@ -21,3 +21,7 @@ https://leetcode.cn/problems/maximum-product-after-k-increments/description/
 
 maximum gap:
 https://leetcode.cn/problems/maximum-width-ramp/description/
+
+interval + greedy:
+https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/description/
+https://leetcode.cn/problems/non-overlapping-intervals/

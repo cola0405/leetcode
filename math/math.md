@@ -1,6 +1,9 @@
 fast pow:
 https://leetcode.cn/problems/powx-n/description/
 
+tabulation:
+https://leetcode.cn/problems/reordered-power-of-2/description/
+
 bits:
 https://leetcode.cn/submissions/detail/505848669/
 
