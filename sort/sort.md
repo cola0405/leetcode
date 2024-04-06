@@ -23,3 +23,4 @@ https://leetcode.cn/problems/1fGaJU/description/
 
 easy:
 https://leetcode.cn/problems/delete-greatest-value-in-each-row/
+https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/description/
