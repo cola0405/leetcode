@@ -8,6 +8,11 @@ https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid/descriptio
 https://leetcode.cn/problems/coloring-a-border/description/
 https://leetcode.cn/problems/number-of-enclaves/description/
 https://leetcode.cn/problems/minesweeper/description/
+https://leetcode.cn/problems/making-a-large-island/description/
 
-水往高处流：
+
+水往高处流(falling-up)：
 https://leetcode.cn/problems/pacific-atlantic-water-flow/description/
+
+avoid previous search:
+https://leetcode.cn/problems/detect-cycles-in-2d-grid/description/
