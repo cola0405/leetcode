@@ -5,7 +5,7 @@ https://leetcode.cn/problems/find-if-path-exists-in-graph/description/
 https://leetcode.cn/problems/keys-and-rooms/description/
 (analyse)
 https://leetcode.cn/problems/minimum-score-of-a-path-between-two-cities/description/
-
+https://leetcode.cn/problems/minimize-malware-spread/
 
 connected component (often union-find):
 (classic)
@@ -18,6 +18,7 @@ https://leetcode.cn/problems/count-the-number-of-complete-components/description
 
 directed graph:
 https://leetcode.cn/problems/all-paths-from-source-to-target/description/
+https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/
 
 specified path:
 https://leetcode.cn/problems/all-paths-from-source-to-target/description/

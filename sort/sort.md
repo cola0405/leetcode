@@ -20,7 +20,14 @@ https://leetcode.cn/problems/maximum-width-ramp/description/
 
 three numbers:
 https://leetcode.cn/problems/1fGaJU/description/
+(math)
+https://leetcode.cn/problems/maximum-product-of-three-numbers/description/
+
 
 easy:
 https://leetcode.cn/problems/delete-greatest-value-in-each-row/
 https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-number/description/
+https://leetcode.cn/problems/minimum-absolute-difference/description/
+https://leetcode.cn/problems/rank-transform-of-an-array/description/
+https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/description/
+

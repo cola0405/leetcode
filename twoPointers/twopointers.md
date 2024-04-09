@@ -62,3 +62,8 @@ https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/description/
 
 basic inplace:
 https://leetcode.cn/problems/separate-black-and-white-balls/description/
+
+
+the condition(limit) may help us sometimes
+(subsequence problem):
+https://leetcode.cn/problems/longest-harmonious-subsequence/description/
