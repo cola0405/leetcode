@@ -30,4 +30,6 @@ https://leetcode.cn/problems/how-many-numbers-are-smaller-than-the-current-numbe
 https://leetcode.cn/problems/minimum-absolute-difference/description/
 https://leetcode.cn/problems/rank-transform-of-an-array/description/
 https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/description/
-
+https://leetcode.cn/problems/height-checker/description/
+https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/description/
+https://leetcode.cn/problems/sort-array-by-increasing-frequency/description/

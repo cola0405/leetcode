@@ -36,4 +36,6 @@ peek: https://leetcode.cn/problems/find-the-peaks/description/
 https://leetcode.cn/problems/minimum-sum-of-mountain-triplets-i/
 https://leetcode.cn/problems/maximum-value-of-an-ordered-triplet-i/description/
 
+table:
+https://leetcode.cn/problems/finding-3-digit-even-numbers/description/
 

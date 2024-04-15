@@ -23,3 +23,5 @@ https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph
 specified path:
 https://leetcode.cn/problems/all-paths-from-source-to-target/description/
 
+tri-color marking algorithm (cycle detection):
+https://leetcode.cn/problems/find-eventual-safe-states/description/

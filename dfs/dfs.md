@@ -16,3 +16,6 @@ https://leetcode.cn/problems/pacific-atlantic-water-flow/description/
 
 avoid previous search:
 https://leetcode.cn/problems/detect-cycles-in-2d-grid/description/
+
+2d:
+https://leetcode.cn/problems/detonate-the-maximum-bombs/description/
