@@ -11,3 +11,6 @@ https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/
 
 multi-bfs:
 https://leetcode.cn/problems/shortest-bridge/description/
+
+cycle detection:
+https://leetcode.cn/problems/shortest-cycle-in-a-graph/submissions/524265231/

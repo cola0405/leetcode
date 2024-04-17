@@ -25,3 +25,17 @@ https://leetcode.cn/problems/all-paths-from-source-to-target/description/
 
 tri-color marking algorithm (cycle detection):
 https://leetcode.cn/problems/find-eventual-safe-states/description/
+
+
+in/out-degree:
+https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/description/
+
+topology sort:
+(in-degree)
+https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/description/
+https://leetcode.cn/problems/course-schedule/description/
+https://leetcode.cn/problems/course-schedule-iv/description/
+https://leetcode.cn/problems/course-schedule-iv/
+https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies/description/
+(bfs from outside to inside)
+https://leetcode.cn/problems/minimum-height-trees/description/
