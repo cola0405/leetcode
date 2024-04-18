@@ -33,3 +33,6 @@ https://leetcode.cn/problems/the-k-weakest-rows-in-a-matrix/description/
 https://leetcode.cn/problems/height-checker/description/
 https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/description/
 https://leetcode.cn/problems/sort-array-by-increasing-frequency/description/
+https://leetcode.cn/problems/maximum-product-difference-between-two-pairs/description/
+https://leetcode.cn/problems/sorting-the-sentence/description/
+https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/
