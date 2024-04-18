@@ -1,49 +1,24 @@
-# dfs 检查回环
-
-# 回环和成块还是不同的
-# 回环必成块
-# [[1,4],[2,4],[3,1],[3,2]] 成块，但不是回环
-# 所以不能用并查集，dfs吧
-
-# 每个节点都需要进行依赖的判断
-# 参数列表中带上local set 用于dfs过程中各node的local依赖检查
-
-
+# topological sorting (queue)
 from typing import List
+from collections import defaultdict
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        # 每个节点都需要进行依赖的判断
-        def dfs(node, waiting):
-            if node in waiting:  # 找到了回环
-                return True
-            # 当前节点不构成回环，接下来检查新node的依赖
-            waiting.add(node)
-            for x in g[node]:
-                if x in checked:  # 已经dfs检查过的节点无需再次检查
-                    continue
+    def canFinish(self, n: int, pre: List[List[int]]) -> bool:
+        after = defaultdict(list)
+        in_deg = [0]*n
+        for a,b in pre:
+            in_deg[a] += 1
+            after[b].append(a)
+        q = [i for i in range(n) if in_deg[i] == 0]
+        remain = n-len(q)
+        while q:    # q only contain the available courses
+            for k in range(len(q)):
+                x = q.pop()
+                for v in after[x]:  
+                    in_deg[v] -= 1
+                    if in_deg[v] == 0:  # update the available courses
+                        q.append(v)
+                        remain -= 1
+        return remain == 0
 
-                if dfs(x, waiting):
-                    return True
-                checked.add(x)  # 更新checked
-            return False
+print(Solution().canFinish(2, [[1,0]]))
 
-        # build graph
-        from collections import defaultdict
-        g = defaultdict(list)
-        checked = set()
-        for pair in prerequisites:
-            a,b = pair
-            g[a].append(b)
-
-        if len(g) > numCourses:  # 没有出现在prerequisites的可直接学
-            return False
-
-        # dfs检查回环
-        for pair in prerequisites:
-            a,b = pair
-            if dfs(b, {a}):
-                return False
-        return True
-
-print(Solution().canFinish(5,
-[[1,4],[2,4],[3,1],[3,2]]))
