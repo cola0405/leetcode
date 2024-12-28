@@ -1,3 +1,12 @@
+easy:
+https://leetcode.cn/problems/array-partition/description/
+https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations/description/
+https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount/
+https://leetcode.cn/problems/maximize-greatness-of-an-array/description/
+https://leetcode.cn/problems/assign-cookies/description/
+
+
+
 
 right-most greedy: https://leetcode.cn/problems/maximize-the-minimum-powered-city/
 

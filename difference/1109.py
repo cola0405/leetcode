@@ -12,3 +12,5 @@ class Solution:
             p += diff[i]
             ans.append(p)
         return ans
+    
+    
