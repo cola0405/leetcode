@@ -54,3 +54,10 @@ floyd:
 
 mst(minimum spanning tree):
 1584
+
+二分图：
+785 886
+
+内向基环树 + 拓扑排序：
+2127 2360
+

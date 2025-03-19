@@ -1,7 +1,12 @@
 # Floyd
+
+# ps: you can't use simple bfs to solve this problem, because the order of visiting the nodes matters
+# we need to visit the nodes optimally to get the smallest number of cities under the threshold
+
 # return the smallest number of cities under the threshold
 # we can use the Floyd calculate the distance between all cities
 # the return the answer
+
 
 from typing import List
 class Solution:

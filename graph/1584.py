@@ -1,4 +1,4 @@
-# kruskal + union-find set
+# kruskal + union-find set （贪心）
 
 from typing import List
 class Solution:

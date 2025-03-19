@@ -9,6 +9,6 @@ class Solution:
 
         if len(nums) == 1:
             return nums[0]
-        return max(dp(nums[:-1]), dp(nums[1:]))
+        return max(dp(nums[:-1]), dp(nums[1:]))     # 说白了就是取/不取第一个，然后取其中的最大值
 
 print(Solution().rob([2,3]))
