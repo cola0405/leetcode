@@ -1,13 +1,19 @@
+'''
+其实就是暴力搜索 没有很明显的dp的思维
+'''
+
 from typing import List
 class Solution:
     def minPathCost(self, grid: List[List[int]], moveCost: List[List[int]]) -> int:
         n = len(grid)
         m = len(grid[0])
         dp = [[float('inf')]*(m+1) for _ in range(n+1)]
+        # 初始状态
         for i in range(m): 
             dp[0][i] = 0
         for i in range(1,m+1):
             dp[1][i] = grid[0][i-1]
+        # 把上一层的每个都尝试一遍
         for i in range(2, n+1):
             for j in range(1, m+1):
                 for k in range(1,m+1):

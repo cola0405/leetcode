@@ -1,29 +1,24 @@
+from collections import defaultdict
 from typing import List
+
+
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        in_degree = [0] * numCourses
-        from collections import defaultdict
-        after_course = defaultdict(list)
-        for course, pre in prerequisites:
-            in_degree[course] += 1
-            after_course[pre].append(course)
+    def findOrder(self, n: int, pre: List[List[int]]) -> List[int]:
+        in_deg = [0]*n
+        after = defaultdict(list)
+        for a,b in pre:
+            in_deg[a] += 1
+            after[b].append(a)
 
-        # 构造stack保存入度为0的课程，解决重复查找0的问题
-        stack = []
-        for i in range(len(in_degree)):
-            if in_degree[i] == 0:
-                stack.append(i)
-
+        q = [i for i in range(n) if in_deg[i] == 0]
+        remain = n-len(q)
         ans = []
-        while len(stack) > 0:
-            idx = stack.pop()
-            in_degree[idx] = -1
-            for course in after_course[idx]:
-                in_degree[course] -= 1
-                if in_degree[course] == 0:
-                    stack.append(course)
-            ans.append(idx)
-
-        return [] if max(in_degree)>0 else ans
-
-print(Solution().findOrder(numCourses = 3, prerequisites = [[1,0],[1,2],[0,1]]))
+        while q:
+            x = q.pop()
+            ans.append(x)
+            for v in after[x]:
+                in_deg[v] -= 1
+                if in_deg[v] == 0:
+                    q.append(v)
+                    remain -= 1
+        return ans if remain == 0 else []
